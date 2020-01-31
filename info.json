@@ -1,0 +1,11 @@
+{
+	"name": "advancedrobotics",
+	"version": "0.1.0",
+	"title": "Advanced Robotics",
+	"author": "pawelek2091",
+	"email": "michalski.pawel209@gmail.com",
+	"dependencies": ["base >= 0.17"],
+	"description": "Additional vanilla-like logistic and construction robots.",
+	"factorio_version": "0.17"
+	"homepage": "https://github.com/pawelek209/factorio_advancedrobotics"
+}
