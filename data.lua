@@ -1,0 +1,1 @@
+require("prototypes/technology") --/c game.player.force.research_all_technologies()
