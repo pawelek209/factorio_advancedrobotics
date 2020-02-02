@@ -4,6 +4,7 @@
 Advanced Robotics will be mod extending existing Logistic and Construction robots.
 Firstly I want to create three kinds of alredy existing robots. Fast, Heavy and Eco. Each one will have it's pros and cons.
 Every plan will be included in the SVG file in main directory.  
+Just a checkout if my TortoiseSVN working good.
   
    
  Sources:
