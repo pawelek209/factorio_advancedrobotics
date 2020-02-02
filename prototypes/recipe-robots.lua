@@ -6,7 +6,9 @@ data:extend({
     energy_required = 10,
     ingredients =
     {
-      {"iron-plate", 2},
+      {"logistic-robot", 1},
+	  {"miniaturized-speed-module", 1},
+	  {"processing-unit", 10},
     },
     result = "basic-fast-logistic-robot"
   },
