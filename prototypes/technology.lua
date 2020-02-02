@@ -4,7 +4,7 @@ data:extend({
     name = "miniaturization",
     icon = "__advancedrobotics__/graphics/technology/miniaturization.png",
     icon_size = 128,
-    prerequisites = {"advanced-electronics-2","low-density-structure",},
+    prerequisites = {"advanced-electronics-2","low-density-structure"},
     unit =
     {
       count = 150,
@@ -23,7 +23,14 @@ data:extend({
     name = "miniaturized-speed-module",
     icon = "__advancedrobotics__/graphics/technology/miniaturized-speed-module.png",
     icon_size = 128,
-    prerequisites = {"speed-module","miniaturization",},
+	effects = 
+	{
+		{
+			type = "unlock-recipe",
+			recipe = "miniaturized-speed-module"
+		},
+	},
+    prerequisites = {"speed-module","miniaturization"},
     unit =
     {
       count = 150,
@@ -35,11 +42,6 @@ data:extend({
       },
       time = 45
     },
-	effects = 
-	{
-		type = "unlock-recipe",
-		recipe = "miniaturized-speed-module"
-	},
     upgrade = false,
   },
 })

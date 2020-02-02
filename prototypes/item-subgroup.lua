@@ -6,9 +6,9 @@ data:extend ({
     order = "a",
   },
   {
-  type = "item-subgroup",
-  name = "robot-modules",
-  group = "advanced-robotics",
-  order = "e",
+	type = "item-subgroup",
+	name = "robot-modules",
+	group = "advanced-robotics",
+	order = "e",
   },
 })
