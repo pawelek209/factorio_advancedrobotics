@@ -35,6 +35,11 @@ data:extend({
       },
       time = 45
     },
+	effects = 
+	{
+		type = "unlock-recipe",
+		recipe = "miniaturized-speed-module"
+	},
     upgrade = false,
   },
 })
