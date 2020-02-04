@@ -8,7 +8,7 @@ data:extend({
     {
       {"logistic-robot", 1},
 	  {"miniaturized-speed-module", 1},
-	  {"processing-unit", 10},
+	  {"low-density-structure", 10},
     },
     result = "basic-fast-logistic-robot"
   },
@@ -21,7 +21,7 @@ data:extend({
     {
       {"logistic-robot", 1},
 	  {"miniaturized-productivity-module", 1},
-	  {"processing-unit", 10},
+	  {"low-density-structure", 10},
     },
     result = "basic-heavy-logistic-robot"
   },
@@ -34,7 +34,7 @@ data:extend({
     {
       {"logistic-robot", 1},
 	  {"miniaturized-effectivity-module", 1},
-	  {"processing-unit", 10},
+	  {"low-density-structure", 10},
     },
     result = "basic-eco-logistic-robot"
   },
