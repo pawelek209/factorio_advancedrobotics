@@ -6,8 +6,8 @@ data:extend({
     icon_size = 32,
     flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
     minable = {mining_time = 0.1, result = "basic-fast-logistic-robot"},
-    resistances = { { type = "fire", percent = 85 } },
-    max_health = 100,
+    resistances = { { type = "fire", percent = 60 } },		-- lowered fire resistance
+    max_health = 100,	 								
     collision_box = {{0, 0}, {0, 0}},
     selection_box = {{-0.5, -1.5}, {0.5, -0.5}},
     max_payload_size = 1,
@@ -223,16 +223,16 @@ data:extend({
     icon_size = 32,
     flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
     minable = {mining_time = 0.1, result = "basic-heavy-logistic-robot"},
-    resistances = { { type = "fire", percent = 85 } },
-    max_health = 100,
+    resistances = { { type = "fire", percent = 60 } },		-- lowered fire resistance
+    max_health = 100,									
     collision_box = {{0, 0}, {0, 0}},
     selection_box = {{-0.5, -1.5}, {0.5, -0.5}},
     max_payload_size = 3,
     speed = 0.045,                                          -- 0.9x basic speed
     max_energy = "1.5MJ",									-- no changes in battery capacity
-    energy_per_tick = "0.065kJ",							-- 1.3x energy consumption per tick
+    energy_per_tick = "0.075kJ",							-- 1.5x energy consumption per tick
     speed_multiplier_when_out_of_energy = 0.2,				-- no changes in speed when discharged multiplier
-    energy_per_move = "6.5kJ",								-- 1.3x energy consumption when moving
+    energy_per_move = "7.5kJ",								-- 1.5x energy consumption when moving
     min_to_charge = 0.2,
     max_to_charge = 0.95,
     idle =
@@ -440,7 +440,7 @@ data:extend({
     icon_size = 32,
     flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
     minable = {mining_time = 0.1, result = "basic-eco-logistic-robot"},
-    resistances = { { type = "fire", percent = 85 } },
+    resistances = { { type = "fire", percent = 60 } },		-- lowered fire resistance
     max_health = 100,
     collision_box = {{0, 0}, {0, 0}},
     selection_box = {{-0.5, -1.5}, {0.5, -0.5}},
