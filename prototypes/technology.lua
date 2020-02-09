@@ -99,7 +99,7 @@ data:extend({
   {
     type = "technology",
     name = "basic-logistic-robots",
-    icon = "__base__/graphics/technology/logistic-robotics.png",
+    icon = "__advancedrobotics__/graphics/technology/basic-logistic-robots.png",
     icon_size = 128,
     prerequisites = {"miniaturization","logistic-robotics"},
     unit =
